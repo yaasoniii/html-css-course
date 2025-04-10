@@ -1,0 +1,118 @@
+.subscribe-button{
+                
+    color: rgb(255, 255, 255);
+    background-color: rgb(210, 8, 8);
+    border: none;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    
+    
+}
+
+.Join-button{
+    background-color: rgb(255, 255, 255);
+    border-color: blue;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 2  px;
+    color: blue;
+    width: 60px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.Twitter-button{ 
+    color: white;
+    background-color: rgb(93, 88, 229);
+    border-radius: 15px;
+    font-weight: 600;
+    height: 33px;
+    width: 65px;
+    border: none;
+    cursor: pointer;
+}
+.Book-button{
+    background-color: black;
+    color: beige;
+    border: solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    cursor: url('xp-cursor.cur'),auto;
+    font-weight: bold;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    margin-left: 12px;
+
+    
+}
+.save-button{
+    background-color: white;
+    color: rgb(92, 92, 236);
+    border-color: rgb(92, 92, 236);
+    border-width: 2px;
+    border-radius: 15px;
+    width: 60px;
+    height: 33px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+.subscribe-button:hover{
+    opacity: 0.8;  
+}
+.subscribe-button:active{
+    opacity: 0.5;
+}
+.Join-button:hover{
+    background-color: rgb(63, 63, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.15s;
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(63,63,255,0.20);
+}
+.Join-button:active{
+    opacity: 0.6;
+    background-color: white;
+    color: blue;
+
+}
+.Twitter-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.20);
+    transition: 0.15s;
+
+}
+.Book-button:hover{
+    background-color: beige;
+    color: black;
+    border-color: black;
+    transition: 0.15s ;
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    padding-left: 7px;
+    padding-right: 7px;
+    width:120px ;
+
+
+}
+
+.Book-button:active{
+    background-color: black;
+    color: white;
+    border-color: white;
+    transition: 0.15;
+
+}
+
+.save-button:hover{
+    background-color: rgba(92, 92, 236, 0.2);
+    border-width: 3px;
+    transition: 0.10s;
+    
+    
+}
