@@ -116,3 +116,25 @@
     
     
 }
+
+.lockIn-button{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.lockIn-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
